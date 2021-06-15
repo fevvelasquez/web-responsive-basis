@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+:root {
+  /* CSS HEX */
+  --color-1: #98ddca;
+  --color-2: #d5ecc2;
+  --color-3: #ffd3b4;
+  --color-4: #ffaaa7;
+}
+
+.principal {
+  color: var(--color-1);
+  border-color: var(--color-4);
+  background-color: var(--color-2);
+}
+.secondary {
+  color: var(--color-4);
+  border-color: var(--color-1);
+  background-color: var(--color-3);
+}
