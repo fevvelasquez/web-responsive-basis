@@ -10,7 +10,7 @@
   --color-4: #ffaaa7;
 }
 
-.principal {
+.primary {
   color: var(--color-1);
   border-color: var(--color-4);
   background-color: var(--color-2);

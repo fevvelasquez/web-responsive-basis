@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .t-box {
+        float: left;
+        border: 15px dashed;
+        width: 25%;
+        height: 200px;
+        transition: 0.5s border-radius cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+      }
+      .t-box:hover {
+        border-radius: 100px; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="t-box primary"></div>
+    <div class="t-box secondary"></div>
+    <div class="t-box primary"></div>
+    <div class="t-box secondary"></div>
+
+    <div class="t-box secondary"></div>
+    <div class="t-box primary"></div>
+    <div class="t-box secondary"></div>
+    <div class="t-box primary"></div>
+
+    <div class="t-box primary"></div>
+    <div class="t-box secondary"></div>
+    <div class="t-box primary"></div>
+    <div class="t-box secondary"></div>
+  </body>
+</html>
